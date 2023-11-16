@@ -16,7 +16,7 @@ public class MessageControllerClass {
 
     @PostMapping
     public void publish(@RequestBody MessageRequest request){
-        kafkaTemplate.send("kajtoTopic",request.message());
+        kafkaTemplate.send("baseTopic",request.message());
 
     }
 }
