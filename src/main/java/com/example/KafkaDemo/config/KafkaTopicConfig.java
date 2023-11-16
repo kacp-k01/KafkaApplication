@@ -7,10 +7,8 @@ import org.springframework.kafka.config.TopicBuilder;
 
 @Configuration
 public class KafkaTopicConfig {
-
-
     @Bean
-    public NewTopic kajtoTopic(){
-        return TopicBuilder.name("kajtoTopic").build();
+    public NewTopic baseTopic(){
+        return TopicBuilder.name("baseTopic").build();
     }
 }
