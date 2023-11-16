@@ -17,7 +17,7 @@ public class KafkaDemoApplication {
 	CommandLineRunner commandLineRunner(KafkaTemplate<String,String> kafkaTemplate){
 		return args -> {
 			for (int i = 0; i < 100; i++) {
-				kafkaTemplate.send("kajtoTopic","helloKajto :) nr "+i);
+				kafkaTemplate.send("baseTopic","hello :) nr "+i);
 
 			}
 		};
