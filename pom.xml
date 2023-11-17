@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>KafkaDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>KafkaDemo</name>
+	<name>KafkaDemoApp</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -34,7 +34,6 @@
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -51,7 +50,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -68,5 +66,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
